@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+
+# env files — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# graphify output (machine-generated, regenerate with `graphify .`)
+graphify-out/
+graphify-out/graph.html
+graphify-out/graph.json
+graphify-out/GRAPH_REPORT.md
+
+# internal development tooling — not part of the public release
+.specify/
+.claude/
+CLAUDE.md
+
+# machine-local artifacts
+dev-server.log
+qa-dev-server.log
+qa-browser-extended.js
+tsconfig.tsbuildinfo
+
+# misc
+.DS_Store
+*.log
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
